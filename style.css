@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background-image: linear-gradient(rgba(10, 15, 49, 0.7),rgba(11, 27, 56, 0.7)),url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+nav{
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+}
+nav .list{
+ text-decoration: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 30px;
+ margin-left: 100px;
+ font-size: 20px;
+}
+nav .list-item{
+  display: flex;
+  margin-left: 80px;
+  color: #F4BE2C;
+  align-items: center;
+  list-style-type: none;    
+}
+.list-item:hover{
+  cursor: pointer;
+}
+.logo{
+  flex: 1;
+  margin: 30px 30px;
+  align-items: center;
+  width: 150px;
+}
+.navbar img{
+  height: 40px;
+}
+.button-small{
+  background-color: #f1434c;
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+h1{
+  font-size: 100px;
+  width: 80%;
+  text-align: center;
+  color: #F4BE2C;
+  margin-left: 90px;
+  line-height: 90px;
+  font-family: "Red Rose", cursive;
+  font-weight: 1000;  
+}
+.hero{
+  margin-left: 120px;
+}
+.button-large{
+  background-color: #f1434c;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.hero button{
+  align-items: center;
+  margin-left: 33%;
+  margin-top: 30px;
+}
+.bottom{
+  width: 220px;
+}
+.bottom img{
+  height: 120px;
+}
+.bottom div{
+  margin-bottom: 30px;
+  margin-top: 0;
+  margin-left: 1060px;
+}
